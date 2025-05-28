@@ -211,18 +211,17 @@
 
 
 ### **Bonus Conceptual Questions:**
+1. Why is using let safer than var? <br>
+   let has block scope and avoids accidental global variables, reducing bugs compared to var which has function scope and hoisting issues.
 
-1. Why is using let safer than var?
-let has block scope and avoids accidental global variables, reducing bugs compared to var which has function scope and hoisting issues.
-
-2.What is the main benefit of separating JavaScript from HTML?
+2. What is the main benefit of separating JavaScript from HTML?<br>
 It improves code readability, maintainability, and allows better organization by keeping structure (HTML) and behavior (JS) separate.
 
-3.Why is Math.random() useful in games or UI effects?
+3. Why is Math.random() useful in games or UI effects?<br>
 It generates unpredictable values, making animations, game mechanics, and dynamic UI elements feel natural and engaging.
 
-5.What happens if two event listeners are attached to the same element?
+4. What happens if two event listeners are attached to the same element?<br>
 Both listeners run in the order they were added when the event fires, allowing multiple behaviors on a single event.
 
-5.Why should we use functions to organize code?
+5. Why should we use functions to organize code?<br>
 Functions make code reusable, modular, easier to read, test, and debug, improving overall development efficiency.
